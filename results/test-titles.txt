@@ -1,0 +1,7 @@
+MODEL: gemini-flash-lite-latest
+
+### JOB 1
+Toxtricity 103/094 Phantasmal Flames Illustration Rare Pokemon TCG Near Mint
+
+### JOB 2
+Bastiodon 093/084 Pitch Black Illustration Rare Pokemon TCG Near Mint
