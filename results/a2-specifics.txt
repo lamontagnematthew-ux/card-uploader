@@ -1,0 +1,22 @@
+MODEL: gemini-flash-lite-latest
+
+### JOB 1
+{"title": "Iono's Kilowattrel 163/159 Journey Together Illustration Rare Pokemon TCG Near Mint", "card_name": "Iono's Kilowattrel", "character": "Kilowattrel", "set": "Journey Together", "card_number": "163/159", "rarity": "Illustration Rare", "year": "2025", "finish": "Holo", "card_type": "Pokémon"}
+
+### JOB 2
+{"title": "Galarian Obstagoon 245/217 Ascended Heroes Illustration Rare Pokemon TCG Near Mint", "card_name": "Galarian Obstagoon", "character": "Galarian Obstagoon", "set": "Ascended Heroes", "card_number": "245/217", "rarity": "Illustration Rare", "year": "2024", "finish": "Holo", "card_type": "Pokémon"}
+
+### JOB 3
+{"title": "Popplio 045 Mega Evolution Black Star Promo Promo Pokemon TCG Near Mint", "card_name": "Popplio", "character": "Popplio", "set": "Mega Evolution Black Star Promo", "card_number": "045", "rarity": "Promo", "year": "2016", "finish": "Holo", "card_type": "Pokémon"}
+
+### JOB 4
+{"title": "Switch 95/102 Base Set Common Pokemon TCG Near Mint", "card_name": "Switch", "character": "None", "set": "Base Set", "card_number": "95/102", "rarity": "Common", "year": "1999", "finish": "Non-Holo", "card_type": "Trainer"}
+
+### JOB 5
+{"title": "Zamazenta V 105/172 Brilliant Stars Holo Rare V Pokemon TCG Near Mint", "card_name": "Zamazenta V", "character": "Zamazenta", "set": "Brilliant Stars", "card_number": "105/172", "rarity": "Holofoil Rare", "year": "2022", "finish": "Holo", "card_type": "Pokémon"}
+
+### JOB 6
+{"title": "Talonflame 091/088 Journey Together Illustration Rare Pokemon TCG Near Mint", "card_name": "Talonflame", "character": "Talonflame", "set": "Journey Together", "card_number": "091/088", "rarity": "Illustration Rare", "year": "2025", "finish": "Holo", "card_type": "Pokémon"}
+
+### JOB 7
+{"title": "Mega Floette ex 101/086 Chaos Rising Ultra Rare Pokemon TCG Near Mint", "card_name": "Mega Floette ex", "character": "Floette", "set": "Chaos Rising", "card_number": "101/086", "rarity": "Ultra Rare", "year": "2025", "finish": "Holo", "card_type": "Pokémon"}
