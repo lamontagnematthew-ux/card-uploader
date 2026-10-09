@@ -1,8 +1,10 @@
 """Runs job files in jobs/ through OpenAI's cheapest model; writes answers to results/.
 Job file format: optional first block 'SYSTEM: ...', jobs separated by a line '---'."""
 import json, os, pathlib, sys, time, urllib.request, urllib.error
-KEY = os.environ["OPENAI_API_KEY"]
-API = "https://api.openai.com/v1"
+# Uses free Google Gemini if GEMINI_API_KEY is set, otherwise OpenAI.
+GEM = os.environ.get("GEMINI_API_KEY", "").strip()
+KEY = GEM or os.environ.get("OPENAI_API_KEY", "").strip()
+API = "https://generativelanguage.googleapis.com/v1beta/openai" if GEM else "https://api.openai.com/v1"
 def call(path, body=None):
     req = urllib.request.Request(API + path, data=json.dumps(body).encode() if body else None,
         headers={"Authorization": "Bearer " + KEY, "Content-Type": "application/json"},
@@ -13,7 +15,11 @@ def pick_model():
     m = os.environ.get("OPENAI_MODEL", "").strip()
     if m:
         return m
-    ids = [x["id"] for x in call("/models")["data"]]
+    ids = [x["id"].replace("models/", "") for x in call("/models")["data"]]
+    if GEM:
+        flash = sorted(i for i in ids if "flash" in i and not any(b in i for b in ("image", "tts", "audio", "live", "exp", "preview")))
+        lite = [i for i in flash if "lite" in i]
+        return (lite or flash or ids)[-1]
     bad = ("audio", "realtime", "tts", "transcribe", "image", "search", "embedding", "moderation")
     chat = [i for i in ids if i.startswith("gpt") and not any(b in i for b in bad)]
     for tier in ("nano", "mini"):

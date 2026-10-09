@@ -1,4 +1,4 @@
-name: OpenAI worker
+name: AI worker
 on:
   push:
     paths: ["jobs/**"]
@@ -17,9 +17,10 @@ jobs:
       - name: Run jobs
         if: steps.f.outputs.files != ''
         env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
-        run: python tools/openai_worker.py ${{ steps.f.outputs.files }}
+        run: python tools/ai_worker.py ${{ steps.f.outputs.files }}
       - name: Save results
         if: steps.f.outputs.files != ''
         run: |
