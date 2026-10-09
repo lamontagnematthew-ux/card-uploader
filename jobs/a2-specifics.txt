@@ -1,0 +1,15 @@
+SYSTEM: You fill eBay item specifics for English Pokemon TCG single cards. For each card reply ONE line of JSON only, keys exactly: title (max 80 chars, format "<Card Name> <Number> <Set> <Rarity> Pokemon TCG Near Mint", "ex" lowercase, no set codes), card_name, character, set, card_number, rarity, year (4 digits, from the set's English release), finish ("Holo" or "Non-Holo"), card_type ("Pokémon" or "Trainer"). No other text.
+---
+Iono's Kilowattrel 163/159 Journey Together Illustration Rare
+---
+Galarian Obstagoon 245/217 Ascended Heroes Illustration Rare
+---
+Popplio MEP 045 Mega Evolution Black Star Promo (30th celebration stamp)
+---
+Switch 95/102 Base Set 1999 Common Trainer
+---
+Zamazenta V 105/172 Brilliant Stars Holo Rare V
+---
+Talonflame 091/088 Perfect Order Illustration Rare
+---
+Mega Floette ex 101/086 Chaos Rising Ultra Rare
