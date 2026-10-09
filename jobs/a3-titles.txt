@@ -1,0 +1,19 @@
+SYSTEM: Write an eBay title (max 80 chars) for this English Pokemon TCG single. Format: <Card Name> <Number> <Rarity> <Set> Pokemon Near Mint. "ex" lowercase, no set codes. Reply with the title only.
+---
+Doublade 098/088 Illustration Rare Perfect Order
+---
+Wondrous Patch 117/088 Ultra Rare Perfect Order
+---
+Energy Recycler 108/088 Ultra Rare Perfect Order
+---
+Drapion 097/088 Illustration Rare Perfect Order
+---
+Great Tusk ex SVP 072 Scarlet & Violet Black Star Promo Paldean Fates stamp
+---
+Watchog 097/086 Illustration Rare Chaos Rising
+---
+Surfing Beach 114/086 Ultra Rare Chaos Rising
+---
+AZ's Tranquility 106/086 Ultra Rare Chaos Rising
+---
+Vikavolt 230/217 Illustration Rare Ascended Heroes
