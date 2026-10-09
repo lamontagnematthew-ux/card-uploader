@@ -1,0 +1,4 @@
+# One card per line: name, number, set. Lines starting with # are ignored.
+Espurr 095/088 Perfect Order
+Manectric 089/084 Pitch Black
+Tatsugiri ex 226/191 Surging Sparks
