@@ -1,0 +1,22 @@
+MODEL: gemini-flash-lite-latest
+
+### JOB 1
+Buddy-Buddy Poffin 167/132 Ultra Rare Mega Evolution Pokemon Near Mint
+
+### JOB 2
+Raticate 099/088 Illustration Rare Perfect Order Pokemon Near Mint
+
+### JOB 3
+Cheren 258/217 Ultra Rare Ascended Heroes Pokemon Near Mint
+
+### JOB 4
+Lucian 208/167 Ultra Rare Twilight Masquerade Pokemon Near Mint
+
+### JOB 5
+Jacinthe 110/088 Ultra Rare Perfect Order Pokemon Near Mint
+
+### JOB 6
+N's PP Up 262/217 Ultra Rare Ascended Heroes Pokemon Near Mint
+
+### JOB 7
+Counter Gain 259/217 Ultra Rare Ascended Heroes Pokemon Near Mint
