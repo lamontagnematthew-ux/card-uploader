@@ -1,0 +1,27 @@
+name: OpenAI worker
+on:
+  push:
+    paths: ["jobs/**"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 2 }
+      - name: Find new job files
+        id: f
+        run: echo "files=$(git diff --name-only --diff-filter=AM HEAD~1 HEAD -- jobs/ | tr '\n' ' ')" >> "$GITHUB_OUTPUT"
+      - name: Run jobs
+        if: steps.f.outputs.files != ''
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
+        run: python tools/openai_worker.py ${{ steps.f.outputs.files }}
+      - name: Save results
+        if: steps.f.outputs.files != ''
+        run: |
+          git config user.name "openai-worker"; git config user.email "actions@github.com"
+          git add results && git commit -m "Results" && git push || echo "nothing to commit"
