@@ -1,0 +1,15 @@
+SYSTEM: Write an eBay title (max 80 chars) for this English Pokemon TCG single. Format: <Card Name> <Number> <Rarity> <Set> Pokemon Near Mint. No set codes. Reply with the title only.
+---
+Buddy-Buddy Poffin 167/132 Ultra Rare Mega Evolution
+---
+Raticate 099/088 Illustration Rare Perfect Order
+---
+Cheren 258/217 Ultra Rare Ascended Heroes
+---
+Lucian 208/167 Ultra Rare Twilight Masquerade
+---
+Jacinthe 110/088 Ultra Rare Perfect Order
+---
+N's PP Up 262/217 Ultra Rare Ascended Heroes
+---
+Counter Gain 259/217 Ultra Rare Ascended Heroes
