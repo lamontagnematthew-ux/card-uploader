@@ -228,3 +228,4 @@ IMAGE: photos/a2/switch-front.jpg
 ---
 Card photo:
 IMAGE: photos/a5/aurorus-front.jpg
+
