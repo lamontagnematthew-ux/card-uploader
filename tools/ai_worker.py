@@ -9,7 +9,7 @@ def call(path, body=None):
     req = urllib.request.Request(API + path, data=json.dumps(body).encode() if body else None,
         headers={"Authorization": "Bearer " + KEY, "Content-Type": "application/json"},
         method="POST" if body else "GET")
-    with urllib.request.urlopen(req, timeout=120) as r:
+    with urllib.request.urlopen(req, timeout=300) as r:
         return json.load(r)
 def pick_model():
     m = os.environ.get("OPENAI_MODEL", "").strip()
@@ -57,13 +57,18 @@ def main(files):
                     content.append({"type": "image_url", "image_url": {"url": "data:image/jpeg;base64," + data}})
             msgs = ([{"role": "system", "content": system}] if system else []) + [{"role": "user", "content": content}]
             ans = "ERROR"
-            for a in range(5):
+            t0 = time.time()
+            for a in range(3):
                 try:
                     ans = call("/chat/completions", {"model": fmodel, "messages": msgs})["choices"][0]["message"]["content"].strip()
                     break
                 except urllib.error.HTTPError as e:
                     ans = f"ERROR {e.code}: {e.read().decode()[:200]}"
                     time.sleep(15 * (a + 1))
+                except (TimeoutError, OSError) as e:
+                    ans = f"ERROR {type(e).__name__}: {e}"
+                    time.sleep(5)
+            print(n, round(time.time() - t0, 1), ans[:60], flush=True)
           except Exception as e:
             ans = f"ERROR {type(e).__name__}: {str(e)[:300]}"
           out.append(f"### JOB {n}\n{ans}")
