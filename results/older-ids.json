@@ -1,0 +1,12 @@
+MODEL: gemini-flash-lite-latest
+
+### JOB 1
+It looks like you've provided a list of strings, which appear to be numeric identifiers, barcode numbers, or ID codes (starting with "3984..." and "9200..."). 
+
+How would you like me to process or organize this list? For example, I can:
+* Remove any duplicate values
+* Sort them in numerical or alphabetical order
+* Group them by their prefixes (e.g., "3984..." vs "9200...")
+* Count the total number of items
+
+Let me know what you need!
