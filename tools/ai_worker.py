@@ -48,8 +48,12 @@ def main(files):
             if imgs:
                 content = [{"type": "text", "text": text}]
                 for u in imgs:
-                    req = urllib.request.Request(u, headers={"User-Agent": "Mozilla/5.0"})
-                    data = base64.b64encode(urllib.request.urlopen(req, timeout=60).read()).decode()
+                    if u.startswith("http"):
+                        req = urllib.request.Request(u, headers={"User-Agent": "Mozilla/5.0"})
+                        raw_img = urllib.request.urlopen(req, timeout=60).read()
+                    else:
+                        raw_img = pathlib.Path(u).read_bytes()
+                    data = base64.b64encode(raw_img).decode()
                     content.append({"type": "image_url", "image_url": {"url": "data:image/jpeg;base64," + data}})
             msgs = ([{"role": "system", "content": system}] if system else []) + [{"role": "user", "content": content}]
             ans = "ERROR"
