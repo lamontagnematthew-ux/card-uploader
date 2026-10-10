@@ -1,0 +1,230 @@
+MODEL: gemini-2.5-flash
+SYSTEM: You read photos of English Pokemon TCG cards. Read ONLY what is printed on the card in the photo; never guess. Reply with ONE line of JSON only, keys: name (card name exactly as printed), number (collector number exactly as printed, e.g. "096/088" or "SVP 073"), card_type ("Pokémon" or "Trainer" or "Energy"), stage ("Basic", "Stage 1", "Stage 2", "VSTAR", "VMAX", or "" for Trainer/Energy), trainer_kind ("Item", "Supporter", "Stadium", "Pokémon Tool" or "" if not a Trainer), hp (number as printed, or "" if none), illustrator (name after "Illus." as printed, or ""), readable (true only if you could clearly read name AND number).
+---
+Card photo:
+IMAGE: photos/tyrunt-front.jpg
+---
+Card photo:
+IMAGE: photos/snivy-front.jpg
+---
+Card photo:
+IMAGE: photos/chandelure-front.jpg
+---
+Card photo:
+IMAGE: photos/a6/seaking-front.jpg
+---
+Card photo:
+IMAGE: photos/inteleon-front.jpg
+---
+Card photo:
+IMAGE: photos/a6/indeedee-front.jpg
+---
+Card photo:
+IMAGE: photos/a3/watchog-front.jpg
+---
+Card photo:
+IMAGE: photos/a4/ns-pp-up-front.jpg
+---
+Card photo:
+IMAGE: photos/a5/crobat-front.jpg
+---
+Card photo:
+IMAGE: photos/a6/fan-rotom-front.jpg
+---
+Card photo:
+IMAGE: photos/tepig-front.jpg
+---
+Card photo:
+IMAGE: photos/a8/probopass-front.jpg
+---
+Card photo:
+IMAGE: photos/a2/zamazenta-front.jpg
+---
+Card photo:
+IMAGE: photos/a3/great-tusk-front.jpg
+---
+Card photo:
+IMAGE: photos/a2/floette-front.jpg
+---
+Card photo:
+IMAGE: photos/a7/jumbo-ice-cream-front.jpg
+---
+Card photo:
+IMAGE: photos/a7/manectric-front.jpg
+---
+Card photo:
+IMAGE: photos/a2/talonflame-front.jpg
+---
+Card photo:
+IMAGE: photos/a4/jacinthe-front.jpg
+---
+Card photo:
+IMAGE: photos/lucario-front.jpg
+---
+Card photo:
+IMAGE: photos/a3/vikavolt-front.jpg
+---
+Card photo:
+IMAGE: photos/bastiodon-front.jpg
+---
+Card photo:
+IMAGE: photos/a6/buneary-front.jpg
+---
+Card photo:
+IMAGE: photos/a8/vibrava-front.jpg
+---
+Card photo:
+IMAGE: photos/a3/az-tranquility-front.jpg
+---
+Card photo:
+IMAGE: photos/a5/dreepy-front.jpg
+---
+Card photo:
+IMAGE: photos/a7/naveen-front.jpg
+---
+Card photo:
+IMAGE: photos/a6/dusclops-front.jpg
+---
+Card photo:
+IMAGE: photos/a4/cheren-front.jpg
+---
+Card photo:
+IMAGE: photos/a3/surfing-beach-front.jpg
+---
+Card photo:
+IMAGE: photos/zacian-front.jpg
+---
+Card photo:
+IMAGE: photos/a4/raticate-front.jpg
+---
+Card photo:
+IMAGE: photos/a7/prism-tower-front.jpg
+---
+Card photo:
+IMAGE: photos/a3/energy-recycler-front.jpg
+---
+Card photo:
+IMAGE: photos/a5/houndoom-front.jpg
+---
+Card photo:
+IMAGE: photos/a8/mega-signal-front.jpg
+---
+Card photo:
+IMAGE: photos/toxtricity-front.jpg
+---
+Card photo:
+IMAGE: photos/a6/dreepy-mb-front.jpg
+---
+Card photo:
+IMAGE: photos/a8/lumiose-city-front.jpg
+---
+Card photo:
+IMAGE: photos/excadrill-front.jpg
+---
+Card photo:
+IMAGE: photos/dragalge-front.jpg
+---
+Card photo:
+IMAGE: photos/a6/reshiram-front.jpg
+---
+Card photo:
+IMAGE: photos/ampharos-front.jpg
+---
+Card photo:
+IMAGE: photos/a3/drapion-front.jpg
+---
+Card photo:
+IMAGE: photos/a8/iron-treads-front.jpg
+---
+Card photo:
+IMAGE: photos/a4/poffin-front.jpg
+---
+Card photo:
+IMAGE: photos/a8/metang-front.jpg
+---
+Card photo:
+IMAGE: photos/espurr-front.jpg
+---
+Card photo:
+IMAGE: photos/eldegoss-front.jpg
+---
+Card photo:
+IMAGE: photos/a4/counter-gain-front.jpg
+---
+Card photo:
+IMAGE: photos/a7/energy-switch-front.jpg
+---
+Card photo:
+IMAGE: photos/a2/obstagoon-front.jpg
+---
+Card photo:
+IMAGE: photos/a2/popplio-front.jpg
+---
+Card photo:
+IMAGE: photos/oshawott-front.jpg
+---
+Card photo:
+IMAGE: photos/a8/energy-search-pro-front.jpg
+---
+Card photo:
+IMAGE: photos/a7/noivern-front.jpg
+---
+Card photo:
+IMAGE: photos/a8/doublade-front.jpg
+---
+Card photo:
+IMAGE: photos/dhelmise-front.jpg
+---
+Card photo:
+IMAGE: photos/a3/wondrous-patch-front.jpg
+---
+Card photo:
+IMAGE: photos/thievul-front.jpg
+---
+Card photo:
+IMAGE: photos/a8/spewpa-front.jpg
+---
+Card photo:
+IMAGE: photos/a6/tool-scrapper-front.jpg
+---
+Card photo:
+IMAGE: photos/armarouge-front.jpg
+---
+Card photo:
+IMAGE: photos/primarina-front.jpg
+---
+Card photo:
+IMAGE: photos/a8/mystery-garden-front.jpg
+---
+Card photo:
+IMAGE: photos/a7/staraptor-front.jpg
+---
+Card photo:
+IMAGE: photos/a2/kilowattrel-front.jpg
+---
+Card photo:
+IMAGE: photos/camerupt-front.jpg
+---
+Card photo:
+IMAGE: photos/a6/punk-helmet-front.jpg
+---
+Card photo:
+IMAGE: photos/a5/glaceon-front.jpg
+---
+Card photo:
+IMAGE: photos/brave-bangle-front.jpg
+---
+Card photo:
+IMAGE: photos/tatsugiri-front.jpg
+---
+Card photo:
+IMAGE: photos/a7/shroodle-front.jpg
+---
+Card photo:
+IMAGE: photos/a7/gladion-front.jpg
+---
+Card photo:
+IMAGE: photos/a2/switch-front.jpg
+---
+Card photo:
+IMAGE: photos/a5/aurorus-front.jpg
