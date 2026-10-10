@@ -1,0 +1,327 @@
+MODEL: gemini-flash-lite-latest
+
+### JOB 1
+{"photos":[{"side":"front","name":"Tyrunt","number":"070","stage":"Stage 1","hp":"100","illustrator":"Shimaris Yukichi"},{"side":"back"}]}
+
+### JOB 2
+```json
+{"photos":[{"side":"front","name":"Snivy","number":"049","stage":"Basic","hp":"60","illustrator":"Saboteri"},{"side":"back"}]}
+```
+
+### JOB 3
+```json{"photos":[{"side":"front","name":"Mega Chandelure ex","number":"099/084","stage":"STAGE2","hp":"350","illustrator":"5ban Graphics"},{"side":"back"}]}```
+
+### JOB 4
+```json{"photos":[{"side":"front","name":"Seaking","number":"021/131","stage":"Stage 1","hp":"110","illustrator":"Nelnal"},{"side":"back"}]}```
+
+### JOB 5
+```json
+{"photos":[{"side":"front","name":"Watchog","number":"097/086","stage":"Stage 1","hp":"100","illustrator":"MARINA Chikazawa"},{"side":"back"}]}
+```
+
+### JOB 6
+{"photos":[{"side":"front","name":"Indeedee V","number":"SV114/SV122","stage":"Basic","hp":"180","illustrator":"5ban Graphics"},{"side":"back"}]}
+
+### JOB 7
+```json
+{"photos":[{"side":"front","name":"Inteleon","number":"142/132","stage":"Stage 2","hp":"150","illustrator":"Ligton"},{"side":"back"}]}
+```
+
+### JOB 8
+{"photos":[{"side":"front","name":"Crobat","number":"093/0","stage":"Stage 2","hp":"130","illustrator":"Kazuhisa Urogami"},{"side":"back"}]}
+
+### JOB 9
+```json
+{"photos":[{"side":"front","name":"N's PP Up","number":"262/217","stage":"Item","hp":"","illustrator":"Toyste Beach"},{"side":"back"}]}
+```
+
+### JOB 10
+```json
+{"photos":[{"side":"front","name":"Tepig","number":"050","stage":"Basic","hp":"80","illustrator":"Saboteri"},{"side":"back"}]}
+```
+
+### JOB 11
+{"photos":[{"side":"front","name":"Fan Rotom","number":"085/1","stage":"Basic","hp":"70","illustrator":"Toshinao Aoki"},{"side":"back"}]}
+
+### JOB 12
+```json
+{"photos":[{"side":"front","name":"Probopass","number":"096/088","stage":"Stage 1","hp":"140","illustrator":"Kinu Nishimura"},{"side":"back"}]}
+```
+
+### JOB 13
+{"photos":[{"side":"front","name":"Zamazenta V","number":"105/172","stage":"Basic","hp":"220","illustrator":"PLANETA Mochizuki"},{"side":"back"}]}
+
+### JOB 14
+```json
+{"photos":[{"side":"front","name":"Great Tusk ex","number":"SVP EN 072","stage":"Basic","hp":"250","illustrator":"5ban Graphics"},{"side":"back"}]}
+```
+
+### JOB 15
+{"photos":[{"side":"front","name":"Mega Floette EX","number":"101/086","stage":"Basic","hp":"250","illustrator":"aky CG Works"},{"side":"back"}]}
+
+### JOB 16
+```json
+{"photos":[{"side":"front","name":"Manectric","number":"089/084","stage":"Stage 1","hp":"120","illustrator":"HICO KIM"},{"side":"back"}]}
+```
+
+### JOB 17
+{"photos":[{"side":"front","name":"Jumbo Ice Cream","number":"109/086","stage":"Item","hp":"","illustrator":"AYUMI ODASHIMA"},{"side":"back"}]}
+
+### JOB 18
+{"photos":[{"side":"front","name":"Talonflame","number":"091/088","stage":"STAGE 2","hp":"150","illustrator":"OKACHEKE"},{"side":"back"}]}
+
+### JOB 19
+```json
+{"photos":[{"side":"front","name":"Jacinthe","number":"110/088","stage":"Supporter","hp":"","illustrator":"Susumu Maeya"},{"side":"back"}]}
+```
+
+### JOB 20
+```json
+{"photos":[{"side":"front","name":"Lucario ex","number":"051/131","stage":"Stage 1","hp":"260","illustrator":"PLANETA Tsuji"},{"side":"back"}]}
+```
+
+### JOB 21
+```json
+{"photos":[{"side":"front","name":"Bastiodon","number":"093/084","stage":"Stage 2","hp":"160","illustrator":"Yoriyuki Ikegami"},{"side":"back"}]}
+```
+
+### JOB 22
+```json{"photos":[{"side":"front","name":"Buneary","number":"083/131","stage":"Basic","hp":"60","illustrator":"Naoki Saito"},{"side":"back"}]}```
+
+### JOB 23
+```json
+{"photos":[{"side":"front","name":"Vikavolt","number":"230/217","stage":"Stage 2","hp":"160","illustrator":""},{"side":"back"}]}
+```
+
+### JOB 24
+```json
+{"photos":[{"side":"front","name":"Vibrava","number":"206/191","stage":"Stage 1","hp":"90","illustrator":"toriyufu"},{"side":"back"}]}
+```
+
+### JOB 25
+{"photos":[{"side":"front","name":"AZ's Tranquility","number":"106/086","stage":"Supporter","hp":"","illustrator":"GIDORA"},{"side":"back"}]}
+
+### JOB 26
+```json{"photos":[{"side":"front","name":"Naveen","number":"112/088","stage":"Supporter","hp":"","illustrator":"DOM"},{"side":"back"}]}
+
+### JOB 27
+{"photos":[{"side":"front","name":"Dreepy","number":"071/131","stage":"Basic","hp":"70","illustrator":"Scav"},{"side":"back"}]}
+
+### JOB 28
+```json
+{"photos":[{"side":"front","name":"Dusclops","number":"036/","stage":"Stage 1","hp":"90","illustrator":"Aya Kusube"},{"side":"back"}]}
+```
+
+### JOB 29
+{"photos":[{"side":"front","name":"Surfing Beach","number":"114/086","stage":"Stadium","hp":"","illustrator":"AYUMI ODASHIMA"},{"side":"back"}]}
+
+### JOB 30
+{"photos":[{"side":"front","name":"Cheren","number":"258/217","stage":"Supporter","hp":"","illustrator":"REND"},{"side":"back"}]}
+
+### JOB 31
+```json
+{"photos":[{"side":"front","name":"Zacian V","number":"095/159","stage":"Basic","hp":"220","illustrator":"aky CG Works"},{"side":"back"}]}
+```
+
+### JOB 32
+```json
+{"photos":[{"side":"front","name":"Raticate","number":"099/088","stage":"Stage 1","hp":"90","illustrator":"Mina Nakai"},{"side":"back"}]}
+```
+
+### JOB 33
+```json
+{"photos":[{"side":"front","name":"Prism Tower","number":"111/086","stage":"Stadium","hp":"","illustrator":"MARINA Chikazawa"},{"side":"back"}]}
+```
+
+### JOB 34
+{"photos":[{"side":"front","name":"Energy Recycler","number":"108/088","stage":"Item","hp":"","illustrator":"Toyste Beach"},{"side":"back"}]}
+
+### JOB 35
+```json
+{"photos":[{"side":"front","name":"Houndoom","number":"063/131","stage":"Stage 1","hp":"120","illustrator":"kawayoo"},{"side":"back"}]}
+```
+
+### JOB 36
+```json
+{"photos":[{"side":"front","name":"Toxtricity","number":"103/094","stage":"Stage 1","hp":"140","illustrator":"Tersda Tera"},{"side":"back"}]}
+```
+
+### JOB 37
+{"photos":[{"side":"front","name":"Mega Signal","number":"171/132","stage":"Item","hp":"","illustrator":"Inose Yukie"},{"side":"back"}]}
+
+### JOB 38
+{"photos":[{"side":"front","name":"Dreepy","number":"071/131","stage":"Basic","hp":"70","illustrator":"Scav"},{"side":"back"}]}
+
+### JOB 39
+```json
+{"photos":[{"side":"front","name":"Lumiose City","number":"111/088","stage":"Stadium","hp":"","illustrator":"MARINA Chikazawa"},{"side":"back"}]}
+```
+
+### JOB 40
+```json
+{"photos":[{"side":"front","name":"Mega Excadrill EX","number":"103/084","stage":"Stage 1","hp":"340","illustrator":"Keisuke Azuma"},{"side":"back"}]}
+```
+
+### JOB 41
+{"photos":[{"side":"front","name":"Mega Dragalge ex","number":"104/086","stage":"STAGE1","hp":"330","illustrator":"5ban Graphics"},{"side":"back"}]}
+
+### JOB 42
+```json
+{"photos":[{"side":"front","name":"Reshiram V","number":"024/195","stage":"Basic","hp":"220","illustrator":"N-DESIGN Inc."},{"side":"back"}]}
+```
+
+### JOB 43
+```json
+{"photos":[{"side":"front","name":"Drapion","number":"097/088","stage":"Stage 1","hp":"140","illustrator":"kawayoo"},{"side":"back"}]}
+```
+
+### JOB 44
+```json
+{"photos":[{"side":"front","name":"Ampharos","number":"090/086","stage":"Stage 2","hp":"160","illustrator":"saino misaki"},{"side":"back"}]}
+```
+
+### JOB 45
+```json
+{"photos":[{"side":"front","name":"Buddy-Buddy Poffin","number":"167/132","stage":"Item","hp":"","illustrator":"AYUMI ODASHIMA"},{"side":"back"}]}
+```
+
+### JOB 46
+```json
+{"photos":[{"side":"front","name":"Metang","number":"094/086","stage":"Stage 1","hp":"100","illustrator":"Kurata So"},{"side":"back"}]}
+```
+
+### JOB 47
+```json
+{"photos":[{"side":"front","name":"Iron Treads ex","number":"SVP EN 073","stage":"Basic","hp":"220","illustrator":"5ban Graphics"},{"side":"back"}]}
+```
+
+### JOB 48
+```json
+{"photos":[{"side":"front","name":"Espurr","number":"095/088","stage":"Basic","hp":"60","illustrator":"MINAMINAMI Take"},{"side":"back"}]}
+```
+
+### JOB 49
+{"photos":[{"side":"front","name":"Energy Switch","number":"107/084","stage":"Item","hp":"","illustrator":"5ban Graphics"},{"side":"back"}]}
+
+### JOB 50
+```json{"photos":[{"side":"front","name":"Eldegoss V","number":"SWSH084","stage":"Basic","hp":"180","illustrator":"5ban Graphics"},{"side":"back"}]}```
+
+### JOB 51
+{"photos":[{"side":"front","name":"Counter Gain","number":"259/217","stage":"Pokémon Tool","hp":"","illustrator":"Toyste Beach"},{"side":"back"}]}
+
+### JOB 52
+```json
+{"photos":[{"side":"front","name":"Galarian Obstagoon","number":"245/217","stage":"Stage 2","hp":"170","illustrator":"Krgc"},{"side":"back"}]}
+```
+
+### JOB 53
+{"photos":[{"side":"front","name":"Popplio","number":"045","stage":"Basic","hp":"70","illustrator":"Saboteri"},{"side":"back"}]}
+
+### JOB 54
+```json
+{"photos":[{"side":"front","name":"Energy Search Pro","number":"176/191","stage":"Item","hp":"","illustrator":"Toyste Beach"},{"side":"back"}]}
+```
+
+### JOB 55
+```json
+{"photos":[{"side":"front","name":"Oshawott","number":"051","stage":"Basic","hp":"70","illustrator":"Saboteri"},{"side":"back"}]}
+```
+
+### JOB 56
+{"photos":[{"side":"front","name":"Dhelmise","number":"091/084","stage":"Basic","hp":"140","illustrator":"Nakamura Ippan"},{"side":"back"}]}
+
+### JOB 57
+{"photos":[{"side":"front","name":"Noivern ex","number":"220/091","stage":"Stage 1","hp":"260","illustrator":"Eske Yoshinob"},{"side":"back"}]}
+
+### JOB 58
+{"photos":[{"side":"front","name":"Doublade","number":"098/088","stage":"Stage 1","hp":"100","illustrator":"Anesaki Dynamic"},{"side":"back"}]}
+
+### JOB 59
+{"photos":[{"side":"front","name":"Thievul","number":"092/084","stage":"Stage 1","hp":"100","illustrator":"Jerky"},{"side":"back"}]}
+
+### JOB 60
+```json
+{"photos":[{"side":"front","name":"Wondrous Patch","number":"117/088","stage":"Item","hp":"","illustrator":"Studio Bora Inc."},{"side":"back"}]}
+```
+
+### JOB 61
+{"photos":[{"side":"front","name":"Primarina","number":"088/084","stage":"STAGE 2","hp":"150","illustrator":"satoma"},{"side":"back"}]}
+
+### JOB 62
+```json
+{"photos":[{"side":"front","name":"Spewpa","number":"089/088","stage":"Stage 1","hp":"80","illustrator":"kamonabe"},{"side":"back"}]}
+```
+
+### JOB 63
+```json
+{"photos":[{"side":"front","name":"Tool Scrapper","number":"115/086","stage":"Item","hp":"","illustrator":"Studio Bora Inc."},{"side":"back"}]}
+```
+
+### JOB 64
+```json
+{"photos":[{"side":"front","name":"Armarouge","number":"086/091","stage":"Stage 1","hp":"140","illustrator":"Iwamoto05"},{"side":"back"}]}
+```
+
+### JOB 65
+```json
+{"photos":[{"side":"front","name":"Mystery Garden","number":"172/132","stage":"Stadium","hp":"","illustrator":"AYUMI ODASHIMA"},{"side":"back"}]}
+```
+
+### JOB 66
+```json
+{"photos":[{"side":"front","name":"Larry's Staraptor","number":"249/217","stage":"Stage 2","hp":"150","illustrator":"kantaro"},{"side":"back"}]}
+```
+
+### JOB 67
+```json
+{"photos":[{"side":"front","name":"Iono's Kilowattrel","number":"163/159","stage":"Stage 1","hp":"120","illustrator":"Terada Tera"},{"side":"back"}]}
+```
+
+### JOB 68
+{"photos":[{"side":"front","name":"Mega Camerupt EX","number":"156/132","stage":"Stage 1","hp":"340","illustrator":"5ban Graphics"},{"side":"back"}]}
+
+### JOB 69
+```json
+{"photos":[{"side":"front","name":"Punk Helmet","number":"121/094","stage":"Pokemon Tool","hp":"","illustrator":"Studio Bora Inc."},{"side":"back"}]}
+```
+
+### JOB 70
+{"photos":[{"side":"front","name":"Glaceon","number":"025/13","stage":"Stage 1","hp":"120","illustrator":"rika"},{"side":"back"}]}
+
+### JOB 71
+```json
+{"photos":[{"side":"front","name":"Tatsugiri ex","number":"226/191","stage":"Basic","hp":"160","illustrator":"5ban Graphics"},{"side":"back"}]}
+```
+
+### JOB 72
+{"photos":[{"side":"front","name":"Brave Bangle","number":"104/084","stage":"Pokemon Tool","hp":"","illustrator":"Toysto Beach"},{"side":"back"}]}
+
+### JOB 73
+```json
+{"photos":[{"side":"front","name":"Switch","number":"95/102","stage":"Item","hp":"","illustrator":"Keiji Kinebuchi"},{"side":"back"}]}
+```
+
+### JOB 74
+```json
+{"photos":[{"side":"front","name":"Shroodle","number":"149/132","stage":"Basic","hp":"60","illustrator":"Shimaris Yukichi"},{"side":"back"}]}
+```
+
+### JOB 75
+```json{"photos":[{"side":"front","name":"Gladion's Final Battle","number":"108/084","stage":"Supporter","hp":"","illustrator":"akagi"},{"side":"back"}]}```
+
+### JOB 76
+{"photos":[{"side":"front","name":"Aurorus","number":"092/088","stage":"Stage 2","hp":"170","illustrator":"Masa"},{"side":"back"}]}
+
+### JOB 77
+{"photos":[{"side":"front","name":"Sliggoo","number":"095/086","stage":"Stage 1","hp":"90","illustrator":"aspara"},{"side":"back"}]}
+
+### JOB 78
+{"photos":[{"side":"front","name":"Hydrapple","number":"188/182","stage":"Stage 2","hp":"170","illustrator":"Jerky"},{"side":"back"}]}
+
+### JOB 79
+{"photos":[{"side":"front","name":"Rowlet","number":"090/088","stage":"Basic","hp":"80","illustrator":"ryoma uratsuka"},{"side":"back"}]}
+
+### JOB 80
+```json
+{"photos":[{"side":"front","name":"Tarragon","number":"116/088","stage":"Supporter","hp":"","illustrator":"Akira Komayama"}]}
+```
