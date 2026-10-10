@@ -1,0 +1,11 @@
+MODEL: gemini-flash-lite-latest
+
+### JOB 1
+```json
+{"name": "Tyrunt", "number": "070", "card_type": "Pokémon", "stage": "Stage 1", "trainer_kind": "", "hp": "100", "illustrator": "Shimaris Yukichi", "readable": true}
+```
+
+### JOB 2
+```json
+{"name": "Snivy", "number": "049", "card_type": "Pokémon", "stage": "Basic", "trainer_kind": "", "hp": "60", "illustrator": "Saboteri", "readable": true}
+```
