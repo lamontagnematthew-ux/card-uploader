@@ -1,0 +1,321 @@
+MODEL: gemini-flash-lite-latest
+SYSTEM: You check eBay listing photos of English Pokemon TCG cards. You get the listing photos in order. Read ONLY what is printed; never guess. For EACH photo, say whether it shows a card FRONT or BACK (the blue Pokemon/Poke Ball back). For fronts give the card name and collector number as printed, plus stage ("Basic"/"Stage 1"/"Stage 2" or trainer kind Item/Supporter/Stadium/Pokemon Tool), HP and illustrator (after "Illus."), "" if unreadable. Reply with ONE line of JSON: {"photos":[{"side":"front","name":"...","number":"...","stage":"...","hp":"...","illustrator":"..."},{"side":"back"}]}
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/WicAAeSwusxqyEwB/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/VrYAAeSw2hFqyEwB/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/XIkAAeSwxF5qyFF8/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/E~oAAeSw4NhqyEz-/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/Q28AAeSwuNBqyFEe/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/EBoAAeSwMUVqyEvI/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/qikAAeSw~c1qyRcP/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/mBEAAeSw8wZqyRcP/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/Ih0AAeSwa3xqyQ5d/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/KUIAAeSwundqyQ5d/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/vl4AAeSwJbRqyRcK/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/wWQAAeSweptqyRcK/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/X5MAAeSwtqtqyEzv/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/H8AAAeSwPo5qyEzv/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/2ZcAAeSwKcBqsEvG/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/38kAAeSwbLhqsEvB/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/LRMAAeSwTvlqyQ-c/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/K1MAAeSwXjVqyQ-c/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/CKMAAeSwGVFqyEs1/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/CoEAAeSwpGZqyEr2/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/wxIAAeSwX9tqyRcQ/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/p04AAeSwrtFqyRcQ/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/e40AAeSw1FdqyTbS/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/caQAAeSwbaxqyTbS/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/Mv8AAeSwknRqyQx0/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/KvgAAeSwnd5qyQx0/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/IaQAAeSwKfRqyQ5c/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/J3UAAeSw1dtqyQ5c/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/LQcAAeSwEAZqyQx1/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/9y4AAeSwrxBqyQx0/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/PC4AAeSwU91qyDe6/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/9MwAAeSwMGFqyDfB/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/1tQAAeSwUyJqyTVg/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/VXsAAeSwdbRqyTVg/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/9TAAAeSw8wZqyQx0/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/-T0AAeSwFhRqyQx0/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/J9QAAeSwFz1qyQ-b/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/HAIAAeSwCbtqyQ-b/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/-2wAAeSwe9tqyEuj/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/SbMAAeSwt99qyEuj/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/Z3gAAeSw-o5qyE1C/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/I7wAAeSwe2lqyE1C/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/uS4AAeSwCjlqyRcR/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/nl4AAeSwH1RqyRcR/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/HukAAeSwGEtqyoJw/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/8oMAAeSwVepqyoJw/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/d2UAAeSwyetqyTbW/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/fXoAAeSwN-VqyTbW/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/eTIAAeSwRoVqynxo/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/hysAAeSwx7Rqynxo/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/sCkAAeSwEjRqrwJM/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/eMwAAeSwKjZqrwIg/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/pOcAAeSw02hqyRHD/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/dS4AAeSwTmVqyRHD/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/vnYAAeSwtYZqyRcT/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/WeUAAeSwHatqyRcT/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/TFgAAeSwWfNqynxW/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/UsAAAeSwahNqynxW/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/iHYAAeSwG1lqyQ-Y/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/LAkAAeSwnMhqyQ-Z/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/akMAAeSwjolqyE1i/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/ZVgAAeSwovlqyE1i/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/WEcAAeSweptqyQ-X/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/K~IAAeSwnMhqyQ-X/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/dpUAAeSwfe5qyTVb/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/WG8AAeSwQi1qyTVb/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/EycAAeSwjO1qyQ5a/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/FDIAAeSw0~tqyQ5a/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/v40AAeSwsNpqyRHC/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/VVcAAeSwa3xqyRHC/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/XewAAeSwcqJqyE0y/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/IQgAAeSwGVFqyE0y/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/7SoAAeSwUyJqyTbG/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/bUcAAeSwQi1qyTbG/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/p2MAAeSwF3dqyRcS/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/tXkAAeSwj99qyRcS/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/bocAAeSwIXBqyTbU/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/beAAAeSw-k5qyTbU/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/-CcAAeSwNXNqyFDI/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/V7MAAeSw31NqyEu0/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/x90AAeSwwshqyFBB/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/J~4AAeSwbwlqyE2I/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/ukIAAeSw9n9qyRcL/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/skoAAeSwi21qyRcL/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/FEkAAeSw0~tqyQ5b/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/JRkAAeSw-NdqyQ5b/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/O-kAAeSwxg5qyFTI/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/CigAAeSwiTtqyE0j/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/iOIAAeSwoYRqyQ-W/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/L9QAAeSwPQVqyQ-W/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/fHIAAeSwK9BqyTbY/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/eQQAAeSwPpRqyTbY/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/kKoAAeSw-NdqyTbN/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/excAAeSweXtqyTbN/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/HrsAAeSw7WhqyE24/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/IMwAAeSwwxBqyE24/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/ak8AAeSw5VdqyTVZ/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/izUAAeSwygRqyTVZ/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/XmUAAeSwfOBqyE0N/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/XsMAAeSwvq1qyE0N/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/T0sAAeSw8HFqyQ-d/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/xHYAAeSwFPtqyQ-d/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/KzcAAeSw4WBqyQx0/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/BxAAAeSw-zVqyQx0/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/-coAAeSwp4tqyQx0/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/BVIAAeSwPQVqyQx0/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/XVYAAeSwsypqyTbL/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/fGsAAeSwe2BqyTbL/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/jb0AAeSwvVdqyE~g/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/SUIAAeSw8KFqyEvy/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/JE0AAeSwGnxqyE1x/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/bigAAeSwwBFqyE1x/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/XXwAAeSwkkFqyTVk/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/UQ8AAeSw8npqyTVk/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/IvwAAeSwshRqyQ5X/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/TS0AAeSwxaVqyQ5X/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/8DwAAeSw3FRqyEri/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/SdQAAeSwWKFqyEri/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/QXUAAeSwatdqyQ5Z/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/QCkAAeSwk7dqyQ5Z/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/srUAAeSw2StqyFaX/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/IfcAAeSwGeBqyE2X/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/kWEAAeSwKT5qyTbJ/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/CuYAAeSwHatqyTbJ/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/neMAAeSwZe1qyRcN/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/tdIAAeSwnNFqyRcN/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/RPgAAeSwOedqyEp3/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/AucAAeSwhHRqyEp3/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/dwoAAeSweINqyTbP/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/eOwAAeSwB9ZqyTbQ/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/VRYAAeSwZ-BqyTVh/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/230AAeSwhDxqyTVi/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/LbMAAeSweIRqyQx0/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/-~sAAeSwNLtqyQx1/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/9mEAAeSwW0ZqyEtD/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/T6IAAeSw-o5qyEtD/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/uDwAAeSw8HFqyRcM/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/nw8AAeSwK9BqyRcM/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/MtMAAeSwWMVqyRHF/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/a18AAeSw8npqyRHF/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/akwAAeSwtfFqyE1T/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/XIIAAeSwFIFqyE1T/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/~pIAAeSwDVJqyEwR/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/SyYAAeSwLo1qyEwR/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/A0kAAeSwrtFqyQx0/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/ONUAAeSwwE1qyQx0/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/ZNkAAeSwo-RqyTVm/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/ZQ4AAeSwK9BqyTVm/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/dVMAAeSwa3xqyTVd/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/W9QAAeSwughqyTVd/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/UocAAeSwPQVqyRHA/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/VoMAAeSwfe5qyRHA/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/pd8AAeSwfypqyEKl/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/btAAAeSwNwxqyEKl/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/OmgAAeSwpUhqyECx/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/PW0AAeSwQ5ZqyECx/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/I7gAAeSwWl9qyEAU/s-l1600.jpg
+IMAGE: https://i.ebayimg.com/images/g/iGMAAeSwUNVqyEAL/s-l1600.jpg
+---
+Listing photos:
+IMAGE: https://i.ebayimg.com/images/g/UL8AAeSw4IFqyEJF/s-l1600.jpg
