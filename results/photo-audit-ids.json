@@ -1,0 +1,12 @@
+MODEL: gemini-flash-lite-latest
+
+### JOB 1
+It looks like you provided a list of tracking numbers (mostly starting with "9200", which are typically USPS tracking or intelligent mail numbers, along with a couple of 12-digit numbers). 
+
+How can I help you with these numbers? For example, I can:
+* **Remove duplicates** if there are any.
+* **Sort them** numerically or alphabetically.
+* **Format them** into a clean list, CSV, or table.
+* **Group them** by prefix. 
+
+Let me know what you'd like to do!

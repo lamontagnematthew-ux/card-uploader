@@ -1,0 +1,7 @@
+MODEL: gemini-flash-lite-latest
+
+### JOB 1
+{"photos":[{"side":"front","name":"Tyrunt","number":"070","stage":"Stage 1","hp":"100","illustrator":"Shimaris Yukichi"},{"side":"back"}]}
+
+### JOB 2
+{"photos":[{"side":"front","name":"Snivy","number":"049","stage":"Basic","hp":"60","illustrator":"Saboteri"},{"side":"back"}]}
