@@ -1,6 +1,6 @@
 """Runs job files in jobs/ through OpenAI's cheapest model; writes answers to results/.
 Job file format: optional first block 'SYSTEM: ...', jobs separated by a line '---'."""
-import json, os, pathlib, sys, time, urllib.request, urllib.error
+import base64, json, os, pathlib, sys, time, urllib.request, urllib.error
 # Uses free Google Gemini if GEMINI_API_KEY is set, otherwise OpenAI.
 GEM = os.environ.get("GEMINI_API_KEY", "").strip()
 KEY = GEM or os.environ.get("OPENAI_API_KEY", "").strip()
@@ -31,22 +31,38 @@ def main(files):
     model = pick_model()
     for f in files:
         p = pathlib.Path(f)
-        blocks = [b.strip() for b in p.read_text().replace("\r\n", "\n").split("\n---\n") if b.strip()]
+        raw = p.read_text()
+        fmodel = model
+        if raw.startswith("MODEL:"):
+            first, raw = raw.split("\n", 1)
+            fmodel = first[6:].strip() or model
+        blocks = [b.strip() for b in raw.replace("\r\n", "\n").split("\n---\n") if b.strip()]
         system = blocks.pop(0)[7:].strip() if blocks and blocks[0].upper().startswith("SYSTEM:") else ""
         out = []
         for n, job in enumerate(blocks, 1):
-            msgs = ([{"role": "system", "content": system}] if system else []) + [{"role": "user", "content": job}]
+            imgs = [l[6:].strip() for l in job.splitlines() if l.startswith("IMAGE:")]
+            text = "\n".join(l for l in job.splitlines() if not l.startswith("IMAGE:"))
+            content = text
+            if imgs:
+                content = [{"type": "text", "text": text}]
+                for u in imgs:
+                    req = urllib.request.Request(u, headers={"User-Agent": "Mozilla/5.0"})
+                    data = base64.b64encode(urllib.request.urlopen(req, timeout=60).read()).decode()
+                    content.append({"type": "image_url", "image_url": {"url": "data:image/jpeg;base64," + data}})
+            msgs = ([{"role": "system", "content": system}] if system else []) + [{"role": "user", "content": content}]
             ans = "ERROR"
-            for a in range(3):
+            for a in range(5):
                 try:
-                    ans = call("/chat/completions", {"model": model, "messages": msgs})["choices"][0]["message"]["content"].strip()
+                    ans = call("/chat/completions", {"model": fmodel, "messages": msgs})["choices"][0]["message"]["content"].strip()
                     break
                 except urllib.error.HTTPError as e:
                     ans = f"ERROR {e.code}: {e.read().decode()[:200]}"
-                    time.sleep(5 * (a + 1))
+                    time.sleep(15 * (a + 1))
             out.append(f"### JOB {n}\n{ans}")
+            if imgs:
+                time.sleep(7)  # stay under free-tier rate limit
         dest = pathlib.Path("results") / p.name
-        dest.write_text(f"MODEL: {model}\n\n" + "\n\n".join(out) + "\n")
+        dest.write_text(f"MODEL: {fmodel}\n\n" + "\n\n".join(out) + "\n")
         print("wrote", dest)
 if __name__ == "__main__":
     main(sys.argv[1:])
