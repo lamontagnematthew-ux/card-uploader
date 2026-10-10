@@ -1,0 +1,8 @@
+MODEL: gemini-flash-latest
+SYSTEM: You read photos of English Pokemon TCG cards. Read ONLY what is printed on the card in the photo; never guess. Reply with ONE line of JSON only, keys: name (card name exactly as printed), number (collector number exactly as printed, e.g. "096/088" or "SVP 073"), card_type ("Pokémon" or "Trainer" or "Energy"), stage ("Basic", "Stage 1", "Stage 2", "VSTAR", "VMAX", or "" for Trainer/Energy), trainer_kind ("Item", "Supporter", "Stadium", "Pokémon Tool" or "" if not a Trainer), hp (number as printed, or "" if none), illustrator (name after "Illus." as printed, or ""), readable (true only if you could clearly read name AND number).
+---
+Card photo:
+IMAGE: https://i.ebayimg.com/images/g/imwAAeSweihqyQ5g/s-l1600.jpg
+---
+Card photo:
+IMAGE: https://i.ebayimg.com/images/g/LRMAAeSwTvlqyQ-c/s-l1600.jpg

@@ -40,6 +40,8 @@ def main(files):
         system = blocks.pop(0)[7:].strip() if blocks and blocks[0].upper().startswith("SYSTEM:") else ""
         out = []
         for n, job in enumerate(blocks, 1):
+          imgs = []
+          try:
             imgs = [l[6:].strip() for l in job.splitlines() if l.startswith("IMAGE:")]
             text = "\n".join(l for l in job.splitlines() if not l.startswith("IMAGE:"))
             content = text
@@ -58,9 +60,11 @@ def main(files):
                 except urllib.error.HTTPError as e:
                     ans = f"ERROR {e.code}: {e.read().decode()[:200]}"
                     time.sleep(15 * (a + 1))
-            out.append(f"### JOB {n}\n{ans}")
-            if imgs:
-                time.sleep(7)  # stay under free-tier rate limit
+          except Exception as e:
+            ans = f"ERROR {type(e).__name__}: {str(e)[:300]}"
+          out.append(f"### JOB {n}\n{ans}")
+          if imgs:
+              time.sleep(7)  # stay under free-tier rate limit
         dest = pathlib.Path("results") / p.name
         dest.write_text(f"MODEL: {fmodel}\n\n" + "\n\n".join(out) + "\n")
         print("wrote", dest)
