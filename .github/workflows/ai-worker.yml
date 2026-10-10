@@ -20,7 +20,11 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
-        run: python tools/ai_worker.py ${{ steps.f.outputs.files }}
+        run: |
+          T=$(echo "${{ steps.f.outputs.files }}" | tr ' ' '\n' | grep -v '\.vision\.json$' | tr '\n' ' ')
+          V=$(echo "${{ steps.f.outputs.files }}" | tr ' ' '\n' | grep '\.vision\.json$' | tr '\n' ' ')
+          if [ -n "$(echo $T)" ]; then python tools/ai_worker.py $T; fi
+          if [ -n "$(echo $V)" ]; then python tools/vision_worker.py $V; fi
       - name: Save results
         if: steps.f.outputs.files != ''
         run: |
