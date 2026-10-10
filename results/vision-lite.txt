@@ -1,0 +1,249 @@
+MODEL: gemini-flash-lite-latest
+
+### JOB 1
+{"name": "Tyrunt", "number": "070", "card_type": "Pokémon", "stage": "Stage 1", "trainer_kind": "", "hp": "100", "illustrator": "Shimaris Yukichi", "readable": true}
+
+### JOB 2
+{"name": "Snivy", "number": "MEP EN 049", "card_type": "Pokémon", "stage": "Basic", "trainer_kind": "", "hp": "60", "illustrator": "Saboteri", "readable": true}
+
+### JOB 3
+{"name": "Mega Chandelure ex", "number": "099/084", "card_type": "Pokémon", "stage": "Stage 2", "trainer_kind": "", "hp": "350", "illustrator": "5ban Graphics", "readable": true}
+
+### JOB 4
+{"name": "Seaking", "number": "021/131", "card_type": "Pokémon", "stage": "Stage 1", "trainer_kind": "", "hp": 110, "illustrator": "Nelnal", "readable": true}
+
+### JOB 5
+{"name": "Inteleon", "number": "142/132", "card_type": "Pokémon", "stage": "Stage 2", "trainer_kind": "", "hp": "150", "illustrator": "Ligton", "readable": true}
+
+### JOB 6
+{"name": "Indeedee V", "number": "SV114/SV122", "card_type": "Pokémon", "stage": "Basic", "trainer_kind": "", "hp": 180, "illustrator": "5ban Graphics", "readable": true}
+
+### JOB 7
+{"name": "Watchog", "number": "097/086", "card_type": "Pokémon", "stage": "Stage 1", "trainer_kind": "", "hp": 100, "illustrator": "MARINA Chikazawa", "readable": true}
+
+### JOB 8
+{"name": "N's PP Up", "number": "262/217", "card_type": "Trainer", "stage": "", "trainer_kind": "Item", "hp": "", "illustrator": "Toyste Beach", "readable": true}
+
+### JOB 9
+{"name": "Crobat", "number": "093/086", "card_type": "Pokémon", "stage": "Stage 2", "trainer_kind": "", "hp": "130", "illustrator": "Kazuhisa Uragami", "readable": true}
+
+### JOB 10
+```json
+{"name": "Fan Rotom", "number": "085/171", "card_type": "Pokémon", "stage": "Basic", "trainer_kind": "", "hp": "70", "illustrator": "Toshinao Aoki", "readable": true}
+```
+
+### JOB 11
+{"name": "Tepig", "number": "050", "card_type": "Pokémon", "stage": "Basic", "trainer_kind": "", "hp": "80", "illustrator": "Saboteri", "readable": true}
+
+### JOB 12
+{"name": "Probopass", "number": "096/088", "card_type": "Pokémon", "stage": "Stage 1", "trainer_kind": "", "hp": "140", "illustrator": "Kinu Nishimura", "readable": true}
+
+### JOB 13
+{"name": "Zamazenta V", "number": "105/172", "card_type": "Pokémon", "stage": "Basic", "trainer_kind": "", "hp": "220", "illustrator": "PLANETA Mochizuki", "readable": true}
+
+### JOB 14
+{"name": "Great Tusk ex", "number": "SVPEN 072", "card_type": "Pokémon", "stage": "Basic", "trainer_kind": "", "hp": "250", "illustrator": "5ban Graphics", "readable": true}
+
+### JOB 15
+{"name": "Mega Floette ex", "number": "101/086", "card_type": "Pokémon", "stage": "BASIC", "trainer_kind": "", "hp": "250", "illustrator": "aky CG Works", "readable": true}
+
+### JOB 16
+{"name": "Jumbo Ice Cream", "number": "109/086", "card_type": "Trainer", "stage": "", "trainer_kind": "Item", "hp": "", "illustrator": "AYUMI ODASHIMA", "readable": true}
+
+### JOB 17
+{"name": "Manectric", "number": "089/084", "card_type": "Pokémon", "stage": "Stage 1", "trainer_kind": "", "hp": "120", "illustrator": "HICO KIM", "readable": true}
+
+### JOB 18
+{"name": "Talonflame", "number": "091/088", "card_type": "Pokémon", "stage": "Stage 2", "trainer_kind": "", "hp": "150", "illustrator": "OKACHEKE", "readable": true}
+
+### JOB 19
+{"name": "Jacinthe", "number": "110/088", "card_type": "Trainer", "stage": "", "trainer_kind": "Supporter", "hp": "", "illustrator": "Susumu Maeya", "readable": true}
+
+### JOB 20
+{"name": "Lucario ex", "number": "051/131", "card_type": "Pokémon", "stage": "Stage 1", "trainer_kind": "", "hp": "260", "illustrator": "PLANETA Tsuji", "readable": true}
+
+### JOB 21
+```json
+{"name": "", "number": "", "card_type": "", "stage": "", "trainer_kind": "", "hp": "", "illustrator": "", "readable": false}
+```
+
+### JOB 22
+{"name": "Bastiodon", "number": "093/084", "card_type": "Pokémon", "stage": "Stage 2", "trainer_kind": "", "hp": "160", "illustrator": "Yoriyuki Ikegami", "readable": true}
+
+### JOB 23
+{"name": "Buneary", "number": "083/131", "card_type": "Pokémon", "stage": "Basic", "trainer_kind": "", "hp": "60", "illustrator": "Naoki Saito", "readable": true}
+
+### JOB 24
+{"name": "Vibrava", "number": "206/191", "card_type": "Pokémon", "stage": "Stage 1", "trainer_kind": "", "hp": "90", "illustrator": "toriyufu", "readable": true}
+
+### JOB 25
+```json
+{"name": "", "number": "", "card_type": "", "stage": "", "trainer_kind": "", "hp": "", "illustrator": "", "readable": false}
+```
+
+### JOB 26
+{"name": "Dreepy", "number": "071/131", "card_type": "Pokémon", "stage": "Basic", "trainer_kind": "", "hp": "70", "illustrator": "Scav", "readable": true}
+
+### JOB 27
+{"name": "Naveen", "number": "112/088", "card_type": "Trainer", "stage": "", "trainer_kind": "Supporter", "hp": "", "illustrator": "DOM", "readable": true}
+
+### JOB 28
+{"name": "Dusclops", "number": "036/", "card_type": "Pokémon", "stage": "Stage 1", "trainer_kind": "", "hp": "90", "illustrator": "Aya Kusube", "readable": true}
+
+### JOB 29
+{"name": "Cheren", "number": "258/217", "card_type": "Trainer", "stage": "", "trainer_kind": "Supporter", "hp": "", "illustrator": "REND", "readable": true}
+
+### JOB 30
+{"name": "", "number": "", "card_type": "", "stage": "", "trainer_kind": "", "hp": "", "illustrator": "", "readable": false}
+
+### JOB 31
+{"name": "Zacian V", "number": "095/159", "card_type": "Pokémon", "stage": "Basic", "trainer_kind": "", "hp": 220, "illustrator": "aky CG Works", "readable": true}
+
+### JOB 32
+{"name": "Raticate", "number": "099/088", "card_type": "Pokémon", "stage": "Stage 1", "trainer_kind": "", "hp": "90", "illustrator": "Mina Nakai", "readable": true}
+
+### JOB 33
+{"name": "Prism Tower", "number": "111/086", "card_type": "Trainer", "stage": "", "trainer_kind": "Stadium", "hp": "", "illustrator": "MARINA Chikazawa", "readable": true}
+
+### JOB 34
+{"name": "Energy Recycler", "number": "108/088", "card_type": "Trainer", "stage": "", "trainer_kind": "Item", "hp": "", "illustrator": "Toyste Beach", "readable": true}
+
+### JOB 35
+{"name": "Houndoom", "number": "063/131", "card_type": "Pokémon", "stage": "Stage 1", "trainer_kind": "", "hp": "120", "illustrator": "kawayoo", "readable": true}
+
+### JOB 36
+{"name": "Mega Signal", "number": "171/132", "card_type": "Trainer", "stage": "", "trainer_kind": "Item", "hp": "", "illustrator": "Inose yukie", "readable": true}
+
+### JOB 37
+{"name": "Toxtricity", "number": "103/094", "card_type": "Pokémon", "stage": "Stage 1", "trainer_kind": "", "hp": 140, "illustrator": "Terada Tera", "readable": true}
+
+### JOB 38
+{"name": "Dreepy", "number": "071/131", "card_type": "Pokémon", "stage": "Basic", "trainer_kind": "", "hp": "70", "illustrator": "Scav", "readable": true}
+
+### JOB 39
+{"name": "Lumiose City", "number": "111/088", "card_type": "Trainer", "stage": "", "trainer_kind": "Stadium", "hp": "", "illustrator": "MARINA Chikazawa", "readable": true}
+
+### JOB 40
+{"name": "Mega Excadrill EX", "number": "103/084", "card_type": "Pokémon", "stage": "Stage 1", "trainer_kind": "", "hp": "340", "illustrator": "Keisuke Azuma", "readable": true}
+
+### JOB 41
+{"name": "Mega Dragalge ex", "number": "104/086", "card_type": "Pokémon", "stage": "Stage 1", "trainer_kind": "", "hp": "330", "illustrator": "5ban Graphics", "readable": true}
+
+### JOB 42
+{"name": "Reshiram V", "number": "024/195", "card_type": "Pokémon", "stage": "Basic", "trainer_kind": "", "hp": "220", "illustrator": "N-DESIGN Inc.", "readable": true}
+
+### JOB 43
+{"name": "Ampharos", "number": "090/086", "card_type": "Pokémon", "stage": "Stage 2", "trainer_kind": "", "hp": "160", "illustrator": "saino misaki", "readable": true}
+
+### JOB 44
+{"name": "Drapion", "number": "097/088", "card_type": "Pokémon", "stage": "Stage 1", "trainer_kind": "", "hp": "140", "illustrator": "kawayoo", "readable": true}
+
+### JOB 45
+{"name": "Iron Treads ex", "number": "SVPEN 073", "card_type": "Pokémon", "stage": "Basic", "trainer_kind": "", "hp": "220", "illustrator": "5ban Graphics", "readable": true}
+
+### JOB 46
+{"name": "Buddy-Buddy Poffin", "number": "167/132", "card_type": "Trainer", "stage": "", "trainer_kind": "Item", "hp": "", "illustrator": "AYUMI ODASHIMA", "readable": true}
+
+### JOB 47
+{"name": "Metang", "number": "094/086", "card_type": "Pokémon", "stage": "Stage 1", "trainer_kind": "", "hp": "100", "illustrator": "Kurata So", "readable": true}
+
+### JOB 48
+{"name": "Espurr", "number": "095/088", "card_type": "Pokémon", "stage": "Basic", "trainer_kind": "", "hp": "60", "illustrator": "MINAMINAMI Take", "readable": true}
+
+### JOB 49
+{"name": "Eldegoss V", "number": "SWSH084", "card_type": "Pokémon", "stage": "Basic", "trainer_kind": "", "hp": 180, "illustrator": "5ban Graphics", "readable": true}
+
+### JOB 50
+{"name": "Counter Gain", "number": "259/217", "card_type": "Trainer", "stage": "", "trainer_kind": "Pokémon Tool", "hp": "", "illustrator": "Toyste Beach", "readable": true}
+
+### JOB 51
+{"name": "Energy Switch", "number": "107/084", "card_type": "Trainer", "stage": "", "trainer_kind": "Item", "hp": "", "illustrator": "Studio Bora Inc.", "readable": true}
+
+### JOB 52
+{"name": "Galarian Obstagoon", "number": "245/217", "card_type": "Pokémon", "stage": "Stage 2", "trainer_kind": "", "hp": "170", "illustrator": "Krgc", "readable": true}
+
+### JOB 53
+{"name": "Popplio", "number": "045", "card_type": "Pokémon", "stage": "Basic", "trainer_kind": "", "hp": "70", "illustrator": "Saboteri", "readable": true}
+
+### JOB 54
+```json
+{"name": "Oshawott", "number": "051", "card_type": "Pokémon", "stage": "Basic", "trainer_kind": "", "hp": "70", "illustrator": "Saboteri", "readable": true}
+```
+
+### JOB 55
+{"name": "Energy Search Pro", "number": "176/191", "card_type": "Trainer", "stage": "", "trainer_kind": "Item", "hp": "", "illustrator": "Toyste Beach", "readable": true}
+
+### JOB 56
+{"name": "Noivern ex", "number": "220/091", "card_type": "Pokémon", "stage": "Stage 1", "trainer_kind": "", "hp": "260", "illustrator": "Eske Yoshinob", "readable": true}
+
+### JOB 57
+```json
+{"name": "Doublade", "number": "098/088", "card_type": "Pokémon", "stage": "Stage 1", "trainer_kind": "", "hp": 100, "illustrator": "Anesaki Dynamic", "readable": true}
+```
+
+### JOB 58
+```json
+{"name": "Dhelmise", "number": "091/084", "card_type": "Pokémon", "stage": "Basic", "trainer_kind": "", "hp": "140", "illustrator": "Nakamura Ippan", "readable": true}
+```
+
+### JOB 59
+{"name": "Wondrous Patch", "number": "117/088", "card_type": "Trainer", "stage": "", "trainer_kind": "Item", "hp": "", "illustrator": "Studio Bora Inc.", "readable": true}
+
+### JOB 60
+```json
+{"name": "Thievul", "number": "092/084", "card_type": "Pokémon", "stage": "Stage 1", "trainer_kind": "", "hp": "100", "illustrator": "Jerky", "readable": true}
+```
+
+### JOB 61
+{"name": "Spewpa", "number": "089/088", "card_type": "Pokémon", "stage": "Stage 1", "trainer_kind": "", "hp": "80", "illustrator": "kamonabe", "readable": true}
+
+### JOB 62
+```json
+{"name": "Tool Scrapper", "number": "115/086", "card_type": "Trainer", "stage": "", "trainer_kind": "Item", "hp": "", "illustrator": "Studio Bora Inc.", "readable": true}
+```
+
+### JOB 63
+```json
+{"name": "Armarouge", "number": "086/091", "card_type": "Pokémon", "stage": "Stage 1", "trainer_kind": "", "hp": "140", "illustrator": "Iwamoto05", "readable": true}
+```
+
+### JOB 64
+{"name": "Primarina", "number": "088/084", "card_type": "Pokémon", "stage": "Stage 2", "trainer_kind": "", "hp": "150", "illustrator": "satoma", "readable": true}
+
+### JOB 65
+{"name": "Mystery Garden", "number": "172/132", "card_type": "Trainer", "stage": "", "trainer_kind": "Stadium", "hp": "", "illustrator": "AYUMI ODASHIMA", "readable": true}
+
+### JOB 66
+{"name": "Larry's Staraptor", "number": "249/217", "card_type": "Pokémon", "stage": "Stage 2", "trainer_kind": "", "hp": "150", "illustrator": "kantaro", "readable": true}
+
+### JOB 67
+{"name": "Iono's Kilowattrel", "number": "163/159", "card_type": "Pokémon", "stage": "Stage 1", "trainer_kind": "", "hp": "120", "illustrator": "Terada Tera", "readable": true}
+
+### JOB 68
+{"name": "Mega Camerupt ex", "number": "156/132", "card_type": "Pokémon", "stage": "Stage 1", "trainer_kind": "", "hp": "340", "illustrator": "5ban Graphics", "readable": true}
+
+### JOB 69
+{"name": "Punk Helmet", "number": "121/094", "card_type": "Trainer", "stage": "", "trainer_kind": "Pokémon Tool", "hp": "", "illustrator": "Studio Bora Inc.", "readable": true}
+
+### JOB 70
+```json
+{"name": "Glaceon", "number": "025/13", "card_type": "Pokémon", "stage": "Stage 1", "trainer_kind": "", "hp": "120", "illustrator": "rika", "readable": true}
+```
+
+### JOB 71
+{"name": "Brave Bangle", "number": "104/084", "card_type": "Trainer", "stage": "", "trainer_kind": "Pokémon Tool", "hp": "", "illustrator": "Toyste Beach", "readable": true}
+
+### JOB 72
+{"name": "Tatsugiri ex", "number": "226/191", "card_type": "Pokémon", "stage": "Basic", "trainer_kind": "", "hp": "160", "illustrator": "5ban Graphics", "readable": true}
+
+### JOB 73
+{"name": "Shroodle", "number": "149/132", "card_type": "Pokémon", "stage": "Basic", "trainer_kind": "", "hp": "60", "illustrator": "Shimaris Yukichi", "readable": true}
+
+### JOB 74
+{"name": "Gladion's Final Battle", "number": "108/084", "card_type": "Trainer", "stage": "", "trainer_kind": "Supporter", "hp": "", "illustrator": "akagi", "readable": true}
+
+### JOB 75
+{"name": "Switch", "number": "95/102", "card_type": "Trainer", "stage": "", "trainer_kind": "Item", "hp": "", "illustrator": "Keiji Kinebuchi", "readable": true}
+
+### JOB 76
+{"name": "Aurorus", "number": "092/088", "card_type": "Pokémon", "stage": "Stage 2", "trainer_kind": "", "hp": "170", "illustrator": "Masa", "readable": true}
