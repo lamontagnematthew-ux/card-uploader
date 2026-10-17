@@ -1,0 +1,184 @@
+[
+ {
+  "id": "darumaka-097-086-BLK-front",
+  "name": "Darumaka",
+  "number": "097/086",
+  "card_type": "Pokémon",
+  "stage": "Basic",
+  "hp": "80",
+  "illustrator": "Tomowaka",
+  "is_back": false
+ },
+ {
+  "id": "darumaka-097-086-BLK-back",
+  "name": "",
+  "number": "",
+  "card_type": "",
+  "stage": "",
+  "hp": "",
+  "illustrator": "",
+  "is_back": true
+ },
+ {
+  "id": "pikachu-029-128-30C-front",
+  "name": "Pikachu",
+  "number": "029/128",
+  "card_type": "Pokémon",
+  "stage": "Basic",
+  "hp": "60",
+  "illustrator": "James Turner",
+  "is_back": false
+ },
+ {
+  "id": "pikachu-029-128-30C-back",
+  "name": "",
+  "number": "",
+  "card_type": "",
+  "stage": "",
+  "hp": "",
+  "illustrator": "",
+  "is_back": true
+ },
+ {
+  "id": "pikachu-023-128-30C-front",
+  "name": "Pikachu",
+  "number": "01/30",
+  "card_type": "Pokémon",
+  "stage": "Basic",
+  "hp": "70",
+  "illustrator": "Ken Sugimori",
+  "is_back": false
+ },
+ {
+  "id": "pikachu-023-128-30C-back",
+  "name": "",
+  "number": "",
+  "card_type": "",
+  "stage": "",
+  "hp": "",
+  "illustrator": "",
+  "is_back": true
+ },
+ {
+  "id": "pikachu-042-128-30C-front",
+  "name": "Pikachu",
+  "number": "042/198",
+  "card_type": "Pokémon",
+  "stage": "Basic",
+  "hp": "60",
+  "illustrator": "Akira Komayama",
+  "is_back": false
+ },
+ {
+  "id": "pikachu-042-128-30C-back",
+  "name": "",
+  "number": "",
+  "card_type": "",
+  "stage": "",
+  "hp": "",
+  "illustrator": "",
+  "is_back": true
+ },
+ {
+  "id": "noivern-ex-091-131-PRE-front",
+  "name": "Noivern ex",
+  "number": "091/131",
+  "card_type": "Pokémon",
+  "stage": "Stage 1",
+  "hp": "270",
+  "illustrator": "PLANETA Igarashi",
+  "is_back": false
+ },
+ {
+  "id": "noivern-ex-091-131-PRE-back",
+  "name": "",
+  "number": "",
+  "card_type": "",
+  "stage": "",
+  "hp": "",
+  "illustrator": "",
+  "is_back": true
+ },
+ {
+  "id": "mega-zygarde-ex-071-MEP-front",
+  "name": "Mega Zygarde ex",
+  "number": "MEP EN 071",
+  "card_type": "Pokémon",
+  "stage": "Basic",
+  "hp": "310",
+  "illustrator": "takuyoa",
+  "is_back": false
+ },
+ {
+  "id": "mega-zygarde-ex-071-MEP-back",
+  "name": "",
+  "number": "",
+  "card_type": "",
+  "stage": "",
+  "hp": "",
+  "illustrator": "",
+  "is_back": true
+ },
+ {
+  "id": "regice-ex-048-217-ASC-front",
+  "name": "Regice ex",
+  "number": "048/217",
+  "card_type": "Pokémon",
+  "stage": "Basic",
+  "hp": "230",
+  "illustrator": "akagi",
+  "is_back": false
+ },
+ {
+  "id": "regice-ex-048-217-ASC-back",
+  "name": "",
+  "number": "",
+  "card_type": "",
+  "stage": "",
+  "hp": "",
+  "illustrator": "",
+  "is_back": true
+ },
+ {
+  "id": "genesect-ex-067-086-BLK-front",
+  "name": "Genesect ex",
+  "number": "067/086",
+  "card_type": "Pokémon",
+  "stage": "Basic",
+  "hp": "220",
+  "illustrator": "5ban Graphics",
+  "is_back": false
+ },
+ {
+  "id": "genesect-ex-067-086-BLK-back",
+  "name": "",
+  "number": "",
+  "card_type": "",
+  "stage": "",
+  "hp": "",
+  "illustrator": "",
+  "is_back": true
+ },
+ {
+  "id": "jirachi-ex-102-128-30C-front",
+  "error": "429"
+ },
+ {
+  "id": "jirachi-ex-102-128-30C-back",
+  "error": "429"
+ },
+ {
+  "id": "mewtwo-ex-064-128-30C-front",
+  "error": "429"
+ },
+ {
+  "id": "mewtwo-ex-064-128-30C-back",
+  "name": "",
+  "number": "",
+  "card_type": "",
+  "stage": "",
+  "hp": "",
+  "illustrator": "",
+  "is_back": true
+ }
+]
