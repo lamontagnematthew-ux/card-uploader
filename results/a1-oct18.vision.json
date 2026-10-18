@@ -1,0 +1,122 @@
+[
+ {
+  "id": "dondozo-ex-066-182-DRI-back.jpg",
+  "name": "",
+  "number": "",
+  "card_type": "",
+  "stage": "",
+  "hp": "",
+  "illustrator": "",
+  "is_back": true
+ },
+ {
+  "id": "dondozo-ex-066-182-DRI-front.jpg",
+  "name": "Dondozo ex",
+  "number": "",
+  "card_type": "Pokémon",
+  "stage": "Basic",
+  "hp": "260",
+  "illustrator": "N-DESIGN Inc.",
+  "is_back": false
+ },
+ {
+  "id": "espeon-ex-070-128-30C-2-back.jpg",
+  "name": "",
+  "number": "",
+  "card_type": "",
+  "stage": "",
+  "hp": "",
+  "illustrator": "",
+  "is_back": true
+ },
+ {
+  "id": "espeon-ex-070-128-30C-2-front.jpg",
+  "name": "Espeon ex",
+  "number": "",
+  "card_type": "Pokémon",
+  "stage": "Stage 1",
+  "hp": "260",
+  "illustrator": "5ban Graphics",
+  "is_back": false
+ },
+ {
+  "id": "espeon-ex-070-128-30C-back.jpg",
+  "name": "",
+  "number": "",
+  "card_type": "",
+  "stage": "",
+  "hp": "",
+  "illustrator": "",
+  "is_back": true
+ },
+ {
+  "id": "espeon-ex-070-128-30C-front.jpg",
+  "name": "Espeon ex",
+  "number": "070/128",
+  "card_type": "Pokémon",
+  "stage": "Stage 1",
+  "hp": "260",
+  "illustrator": "5ban Graphics",
+  "is_back": false
+ },
+ {
+  "id": "meowth-144-128-30C-back.jpg",
+  "name": "",
+  "number": "",
+  "card_type": "",
+  "stage": "",
+  "hp": "",
+  "illustrator": "",
+  "is_back": true
+ },
+ {
+  "id": "meowth-144-128-30C-front.jpg",
+  "name": "Meowth",
+  "number": "144/128",
+  "card_type": "Pokémon",
+  "stage": "Basic",
+  "hp": "60",
+  "illustrator": "OKUBO",
+  "is_back": false
+ },
+ {
+  "id": "team-rockets-orbeetle-198-182-DRI-back.jpg",
+  "name": "",
+  "number": "",
+  "card_type": "",
+  "stage": "",
+  "hp": "",
+  "illustrator": "",
+  "is_back": true
+ },
+ {
+  "id": "team-rockets-orbeetle-198-182-DRI-front.jpg",
+  "name": "Team Rocket's Orbeetle",
+  "number": "198/182",
+  "card_type": "Pokémon",
+  "stage": "Stage 2",
+  "hp": "130",
+  "illustrator": "HYOGONOSUKE",
+  "is_back": false
+ },
+ {
+  "id": "zapdos-133-128-30C-back.jpg",
+  "name": "",
+  "number": "",
+  "card_type": "",
+  "stage": "",
+  "hp": "",
+  "illustrator": "",
+  "is_back": true
+ },
+ {
+  "id": "zapdos-133-128-30C-front.jpg",
+  "name": "Zapdos",
+  "number": "133/128",
+  "card_type": "Pokémon",
+  "stage": "Basic",
+  "hp": "120",
+  "illustrator": "mashu",
+  "is_back": false
+ }
+]
