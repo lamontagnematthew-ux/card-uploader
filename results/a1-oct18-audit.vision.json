@@ -1,0 +1,82 @@
+[
+ {
+  "id": "920051848815-1 Espeon ex 070/128",
+  "name": "Espeon ex",
+  "number": "070/128",
+  "card_type": "Pokémon",
+  "stage": "Stage 1",
+  "hp": "260",
+  "illustrator": "5ban Graphics",
+  "is_back": false
+ },
+ {
+  "id": "920051848815-2",
+  "name": "",
+  "number": "",
+  "card_type": "",
+  "stage": "",
+  "hp": "",
+  "illustrator": "",
+  "is_back": true
+ },
+ {
+  "id": "920051848812-1 Meowth 144/128",
+  "name": "Meowth",
+  "number": "144/128",
+  "card_type": "Pokémon",
+  "stage": "Basic",
+  "hp": "60",
+  "illustrator": "OKUBO",
+  "is_back": false
+ },
+ {
+  "id": "920051848812-2",
+  "name": "",
+  "number": "",
+  "card_type": "",
+  "stage": "",
+  "hp": "",
+  "illustrator": "",
+  "is_back": true
+ },
+ {
+  "id": "920051848816-1 Dondozo ex 066/182",
+  "name": "Dondozo ex",
+  "number": "066/1",
+  "card_type": "Pokémon",
+  "stage": "Basic",
+  "hp": "260",
+  "illustrator": "N-DESIGN Inc.",
+  "is_back": false
+ },
+ {
+  "id": "920051848816-2",
+  "name": "",
+  "number": "",
+  "card_type": "",
+  "stage": "",
+  "hp": "",
+  "illustrator": "",
+  "is_back": true
+ },
+ {
+  "id": "920051848814-1 Team Rocket's Orbeetle 198/182",
+  "name": "Team Rocket's Orbeetle",
+  "number": "198/182",
+  "card_type": "Pokémon",
+  "stage": "Stage 2",
+  "hp": "130",
+  "illustrator": "HYOGONOSUKE",
+  "is_back": false
+ },
+ {
+  "id": "920051848814-2",
+  "name": "",
+  "number": "",
+  "card_type": "",
+  "stage": "",
+  "hp": "",
+  "illustrator": "",
+  "is_back": true
+ }
+]
