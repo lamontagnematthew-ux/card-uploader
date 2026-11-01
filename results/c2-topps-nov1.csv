@@ -1,0 +1,13 @@
+MODEL: gemini-flash-lite-latest
+
+### JOB 1
+It looks like you've provided a complete and properly formatted **eBay File Exchange / Inventory CSV upload template** containing 16 Pokémon Topps trading cards, complete with pricing, specific image URLs, item specifics, shipping profiles, and descriptions.
+
+How would you like to proceed with this data? Here are a few things I can do for you:
+
+1. **Review & Validate:** Check the rows for any missing fields, formatting errors, or category mismatches.
+2. **Modify Pricing/Details:** Bulk update prices, shipping profiles, or descriptions across all or specific items.
+3. **Generate Additional Rows:** If you have more cards from this set (or another set) that you need to add, you can provide the raw details, and I will format them to match this exact template.
+4. **Export Options:** Convert this data into a clean `.csv` file format if you need it downloaded.
+
+Just let me know what you need!
