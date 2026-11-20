@@ -86,13 +86,31 @@ fetch('https://mp-search-api.tcgplayer.com/v1/search/request?q='+encodeURICompon
 - Quantity-only revise header: `Action(SiteID=US|Country=US|Currency=USD|Version=1193|CC=UTF-8),ItemID,CustomLabel,Quantity`.
 - Active listings with qty: `https://www.ebay.com/sh/lst/active?limit=200&offset=N` (about 495 listings), parsed from the table rows.
 
-## 6. Scanning (Kodak ScanMate i1150 → SVT)
-- **Tool:** "SVT Diagnostics (64 bit)" (scanvalidation.exe) → driver TWAINDSM / KODAK Scanner i1100 → Setup → **select "Color Photograph"** (it resets to Color Perfect Page Document on every restart) → OK → plain green Start button. The button with a "1" scans only one page.
-- **Output:** `C:\twain\imageNNNNNNNA.jpg` (front, comes out upside down → rotate 180°) and `...B.jpg` (back). **SVT resets numbering to 0000001 and OVERWRITES files on restart**, so copy each pass out right after it scans. Never relaunch SVT while it's running. Wait until no new file appears for ~60 s before processing.
-- **⚠ OPEN ISSUE (Nov 18):** scans are clipping the card **bottoms**. Images stop at ~2075–2100 px tall (≈3.46 in at 600 dpi), and a card is 3.5 in. **Fix before the next batch:** Settings>> → Size tab → set length to ~4.0 in and turn off automatic length detection → Save the Color Photograph shortcut → test one card and confirm the image is >2150 px tall with a visible bottom border. Then rescan A12 (29 cards) and B11 (19 cards) and replace their listing photos, and check D6/A10 photos too.
-- **Two-pass method:** Matt scans the stack face-down, then spins it end-for-end (still face-down) and scans again. Pair each card's two scans by ORB feature matching (order can shuffle and cards can flip). ORB-align pass 2 (rotated 180°) onto pass 1, then composite using card masks, rotate, deskew and pad a dark margin. Scripts are from the old cloud sessions; rewrite as `scripts/` here if missing.
-- **Every listing photo must show the whole card, all four corners and the full border, front and back.** If anything is cut off, rescan; never list it. Don't crop into the card. Dirt and wear stay visible.
-- Bare cards only. Penny sleeves and wrapped promos jam and crumple. Photograph sealed promos with the phone.
+## 6. Scanning (Kodak ScanMate i1150 → SVT) — run this exact routine every batch
+Script: `scripts/scan.py` (needs `pip install opencv-python numpy pillow` once). Work folders: `scans/<batch>/pass1`, `pass2`, `final` (not committed to git).
+
+**A. Start SVT with the right settings (every time SVT opens)**
+1. Start menu → "SVT Diagnostics (64 bit)". Driver dialog: TWAINDSM / KODAK Scanner i1100 → OK. Never launch it a second time while it's running (a restart resets numbering to image0000001 and OVERWRITES `C:\twain`).
+2. Setup → click **Color Photograph** (it falls back to "Color Perfect Page Document" on every restart; that preset gives ~35 KB low-res files).
+3. Confirm the Color Photograph shortcut still has: Color 24-bit, Photograph, Card Stock, **600 dpi**, JPEG Superior, **Two Sided**; Adjust tab: brightness/contrast none, color balance none, sharpen none.
+4. Size tab: Document = **Manually Select**, origin x 2.65 / y 0.00 in, size **3.20 x 6.00 in**, border none, and **automatic length detection OFF** (this is the Nov 18 bottom-clipping fix — scans were stopping at ~2100 px). Typing in those boxes: click → End → Backspace ×8 → type → Tab. Home → **Save** the shortcut → OK.
+5. **First time after any settings change:** scan ONE card, run `python scripts/scan.py check C:\twain` and confirm it is **taller than 2150 px and says OK** (bottom border visible). Don't run a batch until it does.
+6. Use the plain green Start button (the one with a small "1" scans only one page).
+
+**B. Scan a batch (Matt names the group, e.g. A13)**
+1. Matt loads bare cards face down, top of card first (no sleeves/top loaders/wrapped promos — they jam and crumple). Don't send him messages mid-run.
+2. Pass 1 → `python scripts/scan.py grab A13 1` (waits until no new file for 60 s, then copies).
+3. Matt spins the stack end-for-end (bottom goes in first, still face down) → Pass 2 → `python scripts/scan.py grab A13 2`. Grab each pass BEFORE the next one starts if SVT might restart.
+4. `python scripts/scan.py build A13` (add `--japanese` for Japanese vintage — their backs come out upside down too). It pairs each card's two scans by picture match (order can shuffle, cards can flip), fills the edge the feeder shaved off from the other pass, deskews, pads a dark margin, and smooths print dots (blur 1.5 + unsharp 2/40%/3). Output: `scans/A13/final/NN-front.jpg`, `NN-back.jpg`, `report.txt`.
+5. **Look at every final image yourself:** all four rounded corners and the full border on front AND back. Anything marked RESCAN or visibly cut off → rescan that card; never list it. Same card scanned twice is not a new copy — quantities come from Matt's stack, never from scan count.
+6. Rename finals by card (`name-number-set-front/back.jpg`), copy to `photos/<group>/`, commit + push, then build the upload CSV (section 5).
+
+**C. Other scan rules**
+- Fronts come out upside down (script rotates them). Check the 1st Edition stamp spot on every vintage card; no stamp = Unlimited. Base Set Shadowless = no drop shadow right of the art box.
+- Grade vintage leniently (scanner exaggerates whitening); modern = NM. Dirt and wear stay visible — never crop into the card.
+- Rear-camera dust can leave a straight vertical streak on backs — that's the scanner, not a crease; tell Matt to clean the glass.
+- Thick/glossy sports cards jam: one at a time, or phone photos.
+- Pending rescans with the fixed settings: A12 (29 cards), B11 (19 cards), then check D6/A10/D4/D5/D7 photos; D8 sports never listed.
 
 ## 7. Daily checks (be proactive)
 - Orders: `https://www.ebay.com/sh/ord/` shows awaiting-shipment orders and ship-by dates. Flag oversells (same item sold more times than copies).
