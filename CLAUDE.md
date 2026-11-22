@@ -73,6 +73,7 @@ fetch('https://mp-search-api.tcgplayer.com/v1/search/request?q='+encodeURICompon
 | Vintage: Base Set 2 | 42347959010 |
 | Other Vintage WOTC | 42347960010 |
 | Japanese Pokémon | 42347952010 |
+| Sealed Pokémon (packs, ETBs, boxes) | 42347758010 |
 | Graded Slabs | 42347953010 |
 | Other Collectibles | 42347955010 |
 | One Piece | 42347759010 |
